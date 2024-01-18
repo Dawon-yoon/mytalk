@@ -5,6 +5,7 @@
 /*component*/
 @import "status-bar.css";
 @import "user-component.css";
+@import "nav-bar.css";
 
 /*screen*/
 @import "login.css";
