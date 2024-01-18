@@ -6,10 +6,13 @@
 @import "status-bar.css";
 @import "user-component.css";
 @import "nav-bar.css";
+@import "screen-header.css";
 
 /*screen*/
 @import "login.css";
+@import "friends.css";
 
 body {
   font-family: "Zen Maru Gothic", serif;
+  color: #2f363e;
 }

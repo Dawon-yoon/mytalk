@@ -3,6 +3,10 @@
   justify-content: center;
   font-size: 13px;
   padding: 5px 3px;
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .status-bar i {
