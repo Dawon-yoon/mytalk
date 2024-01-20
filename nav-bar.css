@@ -39,5 +39,6 @@
   border-radius: 50%;
   display: flex;
   position: absolute;
-  right: -3px;
+  right: -4px;
+  bottom: 25px;
 }

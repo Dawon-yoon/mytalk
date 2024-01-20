@@ -109,8 +109,8 @@
 .reply__column:last-child button {
   position: absolute;
   right: 0;
-  top: 5px;
-  right: 8px;
+  top: 2px;
+  right: 4px;
 }
 .reply__column:last-child i {
   right: 37px;
@@ -119,13 +119,15 @@
 .reply__column button {
   background-color: var(--chiikawa);
   border: none;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
   align-items: center;
 }
 .reply__column button i {
   opacity: 1;
+  color: #2f363e;
+  align-items: center;
 }
 .reply__column button:focus,
 .reply__column button:active {
