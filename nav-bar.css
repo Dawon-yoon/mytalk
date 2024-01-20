@@ -25,11 +25,13 @@
   color: white;
   font-size: 12px;
   font-weight: 600;
+  bottom: 18px;
+  left: 18px;
   position: absolute;
-  left: 178px;
-  bottom: 19px;
 }
-
+.nav__list li:nth-child(2) {
+  position: relative;
+}
 .nav__notification-dot {
   background-color: tomato;
   width: 5px;

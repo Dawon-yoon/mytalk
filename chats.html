@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>friends</title>
+    <title>chats</title>
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -21,54 +21,37 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
-        <a href="find.html"><span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span></a>
+        <a href="find.html"> <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span></a>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <a href="setting.html"><span><i class="fa-solid fa-gear fa-lg"></i></span></a>
+        <a href="setting.html"> <span><i class="fa-solid fa-gear fa-lg"></i></span></a>
       </div>
     </header>
 
-    <a id="friends-display-link" href="#">
-      <i class="fa-solid fa-circle-info"></i>
-      ともだちりすと
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
+ 
 
     <main class="main-screen">
-      <div class="user-component">
+      <a class="chat-screen__link" href="chat.html">
+        <div class="user-component">
         <div class="user-component__column">
           <img
-            class="user-component__avatar user-component__avatar--xl"
-            src="img/chiikawa.photo.PNG"
+            class="user-component__avatar"
+            src="img/hachiware.photo.PNG"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">ちいかわ</h4>
-            <!--<h6 class="user-component__subtitle">hihi</h6>-->
+            <h4 class="user-component__title">はちわれ</h4>
+            <h6 class="user-component__subtitle">郎のラーメン食べに行こう!!</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img class="user-component__avatar
-            user-component__avatar--sm" src="img/nagano.PNG" />
-            <div class="user-component__text">
-              <h4 class="user-component__title
-              user-component__title--not-bold">ナガノ</h4>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span>2 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
-           
-          </div></div>
+        <div class="user-component__column">
+            <span class="user-component__time">16:14</span>
+           <span  class="user-component__notification">1</span>
         </div>
       </div>
+     
+      </div>
+    </a>
     </main>
 
     <nav class="nav">
@@ -97,13 +80,7 @@
         </li>
       </ul>
     </nav>
-
-    <div id="splash-screen">
-      <img src="img/splash.png"/>
-    </div>
-
     <div id="no-mobile">モバイルで接続してください</div>
-
     <script
       src="https://kit.fontawesome.com/e106b2b7eb.js"
       crossorigin="anonymous"

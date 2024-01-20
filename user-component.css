@@ -15,12 +15,12 @@
 }
 .user-component__title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .user-component__subtitle {
   margin-left: 3px;
-  margin-top: 5px;
+  margin-top: 10px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 16px;
 }
@@ -54,4 +54,31 @@
 
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__column span {
+  display: block;
+}
+.user-component__time {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__notification {
+  display: flex;
+  text-align: center;
+  background-color: tomato;
+  color: white;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  font-size: 12px;
+  padding: 2px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.recommended-friends__user-component {
+  margin-top: 10px;
+}
+.recommended-friends__user-component__title {
+  color: #2f363e;
 }

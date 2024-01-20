@@ -7,12 +7,21 @@
 @import "user-component.css";
 @import "nav-bar.css";
 @import "screen-header.css";
+@import "alt-screen-header.css";
+@import "no-mobile.css";
 
 /*screen*/
 @import "login.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 body {
   font-family: "Zen Maru Gothic", serif;
   color: #2f363e;
+}
+*:focus {
+  outline: none;
 }
